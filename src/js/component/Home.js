@@ -6,6 +6,8 @@ import Navbar from "./Navbar";
 
 import Jumbotron from "./Jumbotron";
 
+import Footer from "./Footer";
+
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
@@ -16,8 +18,11 @@ const Home = () => {
 			<Navbar />
 			<div className="container">
 				<Jumbotron />
+				<div style={{minHeight: "600px"}}>
 				<Cards />
+				</div>
 			</div>
+			<Footer />
 		</div>
 	);
 };
